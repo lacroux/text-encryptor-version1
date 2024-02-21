@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="reset.css">
+    <title>Encriptador de Texto</title>
+    <link rel="shortcut icon" href="imagenes-Challenge/diamod.png" type="image/x-icon">
+</head>
+<body>
+    <div class="container-fondo">
+        <div class="caja-encriptador">
+            <textarea name="texto" class="texto" id="texto" cols="30" rows="10" placeholder="Ingrese el texto a Encriptar"></textarea>
+        </div>
+        <div class="condiciones">
+            <p>Solo admite letras en minúsculas, sin acento ni caracteres especiales</p>
+        </div>
+        <div class="botones">
+            <button class="boton-encriptar" type="button" onclick="encriptar()">Encriptar</button>
+            <input type= "button" class="boton-desencriptar" value="Desencriptar" onclick="desencriptar()"/>
+        </div>
+        <div class="mensaje-encriptado">
+            <img src="imagenes-Challenge/Muñeco.png" alt="" id="muñeco">
+        <div class="texto-encriptado" id="texto-encriptado">
+            <h2 id="caja-mensaje">No hay mensaje encriptado</h2>
+            <p id="">Ingresa el texto que desea encriptar o desencriptar</p>
+            <!-- <textarea name="mensaje" id="mensaje" cols="30" rows="10" placeholder="Texto Encriptado" class="mensaje"></textarea> -->
+        </div>
+        </div>
+    </div>
+</body>
+    <script src="app.js"></script>
+</html>
