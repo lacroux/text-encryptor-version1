@@ -10,4 +10,6 @@
   :construction: Proyecto en construcción :construction:
 </h4>
 
+<h2> align="center">
 ![logo encriptador](imagenes-Challenge/Muñeco.png)
+</h2>
