@@ -167,6 +167,7 @@
 
 @media (max-width: 480px) {
     .container-fondo {
+        width: 100%;
         display: flex;
         flex-direction: row;
     }
