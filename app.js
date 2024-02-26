@@ -45,8 +45,7 @@ function desencriptar() {
     }   else {
         muñeco.src = "./imagenes-Challenge/Muñeco.png";
         tituloMensaje.textContent = "Ningún mensaje fue encontrado";
-        textoEncriptado.textContent = "Ingrese el texto que encriptar o desencriptar";
+        textoEncriptado.textContent = "Ingrese el texto que desea encriptar o desencriptar";
         alert("Debe ingresar un texto");
     }
 }
-
