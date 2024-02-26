@@ -58,9 +58,9 @@
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    padding: 1% 0;
+    padding: 2% 0;
     position: absolute;
-    width: 70%;
+    width: 80%;
     left: 7em;
     top: 80%;
 }
@@ -68,7 +68,8 @@
 .boton-encriptar {
     align-items: center;
     justify-content: center;
-    padding: 2em;
+    padding: 1.5em;
+    margin: 5px;
     gap: 8px;
     width: 25%;
     background-color: #0A3871;
@@ -86,7 +87,7 @@
     flex-direction: row;
     align-items: flex-start;
     justify-content: center;
-    padding: 2em;
+    padding: 1.5em;
     gap: 8px;
     width: 25%;
     background: #D8DFE8;
