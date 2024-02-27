@@ -39,10 +39,9 @@ function desencriptar() {
     if (texto.length != 0) {
         document.getElementById("texto").value = textoCifrado;
         tituloMensaje.textContent = "Texto desencriptado con éxito";
-        muñeco.src = "./imagenes-Challenge/Frame 6.png";
+        muñeco.src = "./imagenes-Challenge/Muñeco.png";
     }   else {
-        muñeco.src = "./imagenes-Challenge/Frame 6.png";
-        tituloMensaje.textContent = "Ningún mensaje fue encontrado";
+        muñeco.src = "./imagenes-Challenge/Muñeco.png";
         textoEncriptado.textContent = "Ingrese el texto que desea encriptar o desencriptar";
         alert("Debe ingresar un texto");
     }

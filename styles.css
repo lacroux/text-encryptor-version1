@@ -45,7 +45,7 @@
     font-family: "Inter";
     font-style: normal;
     font-weight: 400;
-    font-size: 12px;
+    font-size: 15px;
     line-height: 150%;
     color: #363b3f;
     opacity: 0.9;
@@ -160,8 +160,9 @@
     position: absolute;
     width: 80%;
     height: 50%;
-    top: 15%;
+    top: 4%;
 }
+
 
 /* Resposividad */
 
@@ -182,9 +183,8 @@
     }
      .condiciones {
         width: 85%;
-        left: 10%;
-        top: 70%;
-        
+        left: 4%;
+        top: 70%;   
     }
     .condiciones p {
         font-size: 10px;
@@ -211,24 +211,27 @@
     }    
     .mensaje-encriptado {
         width: 80%;
-        height: 38%;
+        height: 20%;
         left: 10%;
         top: 79%;
     }
     .texto-encriptado, h2 {
         width: 100%;
-        margin: 60%;
-        top: 5%;
+        margin: 50%;
+        top: -5em;
     }
-
+    .texto-encriptado h2 {
+        top: 5px
+    }
     .mensaje-encriptado img {
         display: flex;
         flex-direction: column;
-        width: 60%;   
+        width: 55%;
+        height: 9em;
+        top: 6px   
     }
 
 }
-
 
 
 
